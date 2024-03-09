@@ -132,13 +132,11 @@ export default function Location({onChange}: {
       }
       <Section completed={ !!selectedPickUpPoint } disabled={ locationsHasError }
                title={ 'Step 1: Select the location' }>
-
         { locationsIsLoading &&
          <Box>
            <LinearProgress/>
          </Box>
         }
-
 
         <ButtonRow>
 
@@ -179,6 +177,7 @@ export default function Location({onChange}: {
 
 
         </ButtonRow>
+
         <ButtonRow>
           <Button
             onClick={ handleClear }
@@ -187,7 +186,6 @@ export default function Location({onChange}: {
             disabled={ !selectedPickUpPoint }
             size={ 'large' }>Clear</Button>
         </ButtonRow>
-
 
       </Section>
     </>
