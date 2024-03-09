@@ -1,13 +1,29 @@
 [
   {
-    "offerUId": "cd407ab",
+    "offerUId": "dcb6d12",
     "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
     },
     "price": {
-      "amount": 27.4,
+      "amount": 189.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Best Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+    }
+  },
+  {
+    "offerUId": "696d5ae",
+    "vehicle": {
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+    },
+    "price": {
+      "amount": 193.49,
       "currency": "EUR"
     },
     "vendor": {
@@ -16,62 +32,46 @@
     }
   },
   {
-    "offerUId": "3003987",
+    "offerUId": "c700059",
     "vehicle": {
       "modelName": "Peugeot 2008",
       "sipp": "CFMD",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
     },
     "price": {
-      "amount": 32.4,
+      "amount": 197.49,
       "currency": "EUR"
     },
     "vendor": {
-      "name": "Best Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
     }
   },
   {
-    "offerUId": "ae96198",
+    "offerUId": "476f8e3",
     "vehicle": {
       "modelName": "Peugeot 2008",
       "sipp": "CFMD",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
     },
     "price": {
-      "amount": 32.4,
+      "amount": 199.49,
       "currency": "EUR"
     },
     "vendor": {
-      "name": "Best Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
     }
   },
   {
-    "offerUId": "145f694",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 32.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "Best Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
-    }
-  },
-  {
-    "offerUId": "df5d41f",
+    "offerUId": "7698940",
     "vehicle": {
       "modelName": "VW Polo",
       "sipp": "EDMR",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
     },
     "price": {
-      "amount": 33.4,
+      "amount": 205.49,
       "currency": "EUR"
     },
     "vendor": {
@@ -80,14 +80,46 @@
     }
   },
   {
-    "offerUId": "3557f8c",
+    "offerUId": "cc28084",
+    "vehicle": {
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+    },
+    "price": {
+      "amount": 209.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Best Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+    }
+  },
+  {
+    "offerUId": "468f413",
     "vehicle": {
       "modelName": "VW Polo",
       "sipp": "EDMR",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
     },
     "price": {
-      "amount": 33.4,
+      "amount": 211.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "South Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
+    }
+  },
+  {
+    "offerUId": "42dc9b4",
+    "vehicle": {
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+    },
+    "price": {
+      "amount": 214.49,
       "currency": "EUR"
     },
     "vendor": {
@@ -96,142 +128,30 @@
     }
   },
   {
-    "offerUId": "7eb5bd2",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 36.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "South Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
-    }
-  },
-  {
-    "offerUId": "2ccaad6",
-    "vehicle": {
-      "modelName": "Seat Leon",
-      "sipp": "CDMR",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
-    },
-    "price": {
-      "amount": 40.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "South Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
-    }
-  },
-  {
-    "offerUId": "eb516a1",
-    "vehicle": {
-      "modelName": "Seat Leon",
-      "sipp": "CDMR",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
-    },
-    "price": {
-      "amount": 41.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "South Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
-    }
-  },
-  {
-    "offerUId": "02ec2f0",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 48.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "South Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
-    }
-  },
-  {
-    "offerUId": "758e9e6",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 51.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "Northern Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
-    }
-  },
-  {
-    "offerUId": "2e7a2c5",
+    "offerUId": "ccdde68",
     "vehicle": {
       "modelName": "VW Polo",
       "sipp": "EDMR",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
     },
     "price": {
-      "amount": 52.4,
+      "amount": 215.49,
       "currency": "EUR"
     },
     "vendor": {
-      "name": "Best Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
     }
   },
   {
-    "offerUId": "1416fe4",
+    "offerUId": "859ec3f",
     "vehicle": {
       "modelName": "Seat Leon",
       "sipp": "CDMR",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
     },
     "price": {
-      "amount": 56.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "South Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
-    }
-  },
-  {
-    "offerUId": "27fb96a",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 57.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "South Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
-    }
-  },
-  {
-    "offerUId": "d21ba45",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 61.4,
+      "amount": 215.49,
       "currency": "EUR"
     },
     "vendor": {
@@ -240,14 +160,46 @@
     }
   },
   {
-    "offerUId": "d2aaec0",
+    "offerUId": "e9a7348",
+    "vehicle": {
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+    },
+    "price": {
+      "amount": 215.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
+    }
+  },
+  {
+    "offerUId": "e33ba41",
+    "vehicle": {
+      "modelName": "Peugeot 2008",
+      "sipp": "CFMD",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
+    },
+    "price": {
+      "amount": 217.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Best Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+    }
+  },
+  {
+    "offerUId": "5a9d15a",
     "vehicle": {
       "modelName": "VW Polo",
       "sipp": "EDMR",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
     },
     "price": {
-      "amount": 63.4,
+      "amount": 218.49,
       "currency": "EUR"
     },
     "vendor": {
@@ -256,14 +208,14 @@
     }
   },
   {
-    "offerUId": "a7ae27d",
+    "offerUId": "ecf28b6",
     "vehicle": {
-      "modelName": "Seat Leon",
-      "sipp": "CDMR",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+      "modelName": "VW Polo",
+      "sipp": "EDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
     },
     "price": {
-      "amount": 63.4,
+      "amount": 219.49,
       "currency": "EUR"
     },
     "vendor": {
@@ -272,51 +224,99 @@
     }
   },
   {
-    "offerUId": "4c65fcb",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 67.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "Best Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
-    }
-  },
-  {
-    "offerUId": "f651fb7",
-    "vehicle": {
-      "modelName": "Peugeot 2008",
-      "sipp": "CFMD",
-      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/peugeot-2008.png"
-    },
-    "price": {
-      "amount": 70.4,
-      "currency": "EUR"
-    },
-    "vendor": {
-      "name": "Best Rentals",
-      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
-    }
-  },
-  {
-    "offerUId": "2c3cb32",
+    "offerUId": "5e1bdf9",
     "vehicle": {
       "modelName": "Seat Leon",
       "sipp": "CDMR",
       "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
     },
     "price": {
-      "amount": 74.4,
+      "amount": 220.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Best Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
+    }
+  },
+  {
+    "offerUId": "b40bbd2",
+    "vehicle": {
+      "modelName": "VW Polo",
+      "sipp": "EDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
+    },
+    "price": {
+      "amount": 221.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
+    }
+  },
+  {
+    "offerUId": "a83725d",
+    "vehicle": {
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+    },
+    "price": {
+      "amount": 232.49,
       "currency": "EUR"
     },
     "vendor": {
       "name": "South Rentals",
       "imageLink": "https://booking-test.dev-dch.com/images/vendor/south-rentals.png"
+    }
+  },
+  {
+    "offerUId": "1616c1d",
+    "vehicle": {
+      "modelName": "VW Polo",
+      "sipp": "EDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
+    },
+    "price": {
+      "amount": 236.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
+    }
+  },
+  {
+    "offerUId": "7883d58",
+    "vehicle": {
+      "modelName": "VW Polo",
+      "sipp": "EDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/vw-polo.png"
+    },
+    "price": {
+      "amount": 238.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Northern Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/northern-rentals.png"
+    }
+  },
+  {
+    "offerUId": "86d3420",
+    "vehicle": {
+      "modelName": "Seat Leon",
+      "sipp": "CDMR",
+      "imageLink": "https://booking-test.dev-dch.com/images/vehicle/seat-leon.png"
+    },
+    "price": {
+      "amount": 238.49,
+      "currency": "EUR"
+    },
+    "vendor": {
+      "name": "Best Rentals",
+      "imageLink": "https://booking-test.dev-dch.com/images/vendor/best-rentals.png"
     }
   }
 ]
