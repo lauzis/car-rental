@@ -1,12 +1,10 @@
 import Section from '@/app/components/General/Section';
 import * as React from 'react';
 import Autocomplete from '@mui/material/Autocomplete';
-import { ChangeEvent, SyntheticEvent, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Alert, Box, Button, LinearProgress, TextField } from '@mui/material';
-import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
-import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import { getLocationList } from '@/app/helpers/actions';
-import { redirect, useRouter, useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import ButtonRow from '@/app/components/General/ButtonRow';
 
 export default function Location({onChange}: {
