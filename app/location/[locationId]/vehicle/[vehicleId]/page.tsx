@@ -1,7 +1,7 @@
-import { notFound, useRouter } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { getLocationList, getOfferList } from '@/app/helpers/actions';
 import Link from 'next/link';
-import { Button, Card, CardActions, CardContent, Typography } from '@mui/material';
+import { Button } from '@mui/material';
 import ButtonRow from '@/app/components/General/ButtonRow';
 
 const Page = async ({params}: { params: { locationId: string, vehicleId: string } }) => {
