@@ -1,10 +1,12 @@
 import Section from '@/app/components/General/Section';
 import * as React from 'react';
 import Autocomplete from '@mui/material/Autocomplete';
-import { useEffect, useState } from 'react';
+import { ChangeEvent, SyntheticEvent, useEffect, useState } from 'react';
 import { Alert, Box, Button, LinearProgress, TextField } from '@mui/material';
+import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
+import CheckBoxIcon from '@mui/icons-material/CheckBox';
 import { getLocationList } from '@/app/helpers/actions';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { redirect, useRouter, useSearchParams } from 'next/navigation';
 import ButtonRow from '@/app/components/General/ButtonRow';
 
 export default function Location({onChange}: {
@@ -130,11 +132,13 @@ export default function Location({onChange}: {
       }
       <Section completed={ !!selectedPickUpPoint } disabled={ locationsHasError }
                title={ 'Step 1: Select the location' }>
+
         { locationsIsLoading &&
          <Box>
            <LinearProgress/>
          </Box>
         }
+
 
         <ButtonRow>
 
@@ -175,7 +179,6 @@ export default function Location({onChange}: {
 
 
         </ButtonRow>
-
         <ButtonRow>
           <Button
             onClick={ handleClear }
@@ -184,6 +187,7 @@ export default function Location({onChange}: {
             disabled={ !selectedPickUpPoint }
             size={ 'large' }>Clear</Button>
         </ButtonRow>
+
 
       </Section>
     </>

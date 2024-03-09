@@ -1,11 +1,12 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { requestReservation } from '@/app/helpers/actions';
+import { getLocationList, getOfferList, requestReservation } from '@/app/helpers/actions';
 import Location from '@/app/components/ReservationForm/Location';
 import OfferList from '@/app/components/ReservationForm/OfferList';
 import Customer from '@/app/components/ReservationForm/Customer';
 import { Alert, Box, Button, LinearProgress } from '@mui/material';
 import ButtonRow from '@/app/components/General/ButtonRow';
+import { useRouter } from 'next/navigation';
 
 const ReservationForm = () => {
   const TIMEOUT_LENGTH = 15;
@@ -61,6 +62,12 @@ const ReservationForm = () => {
     setSelectedOffer(null);
     setSubmittingTimeout(TIMEOUT_LENGTH);
   }
+
+
+
+  console.log(
+    {selectedLocation, selectedOffer}
+  )
 
   if (submitting) {
     return (

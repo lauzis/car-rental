@@ -1,15 +1,11 @@
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export async function getLocationList() {
-  try {
-    const res = await fetch(`${ API_BASE_URL }Locations/Locations`);
-    if (res.ok){
-      const locations: locationType[] = await res.json();
-      return locations;
-    } else {
-      return null;
-    }
-  } catch (e) {
+  const res = await fetch(`${ API_BASE_URL }Locations/Locations`);
+  if (res.ok){
+    const locations: locationType[] = await res.json();
+    return locations;
+  } else {
     return null;
   }
 }

@@ -1,7 +1,7 @@
-import { notFound } from 'next/navigation';
+import { notFound, useRouter } from 'next/navigation';
 import { getLocationList, getOfferList } from '@/app/helpers/actions';
 import Link from 'next/link';
-import { Button } from '@mui/material';
+import { Button, Card, CardActions, CardContent, Typography } from '@mui/material';
 import ButtonRow from '@/app/components/General/ButtonRow';
 
 const Page = async ({params}: { params: { locationId: string, vehicleId: string } }) => {
@@ -24,7 +24,11 @@ const Page = async ({params}: { params: { locationId: string, vehicleId: string 
                 title={ offer.vehicle.modelName }
               />
             </div>
+            {/*<CardMedia className={'flex content-center'}*/ }
+            {/*  sx={{ width:'100%', height:'auto'}}*/ }
+            {/*  image={offer.vehicle.imageLink}*/ }
 
+            {/*/>*/ }
             <div>
               <ul>
                 <li>
@@ -41,7 +45,6 @@ const Page = async ({params}: { params: { locationId: string, vehicleId: string 
                 </li>
               </ul>
             </div>
-
             <ButtonRow>
               <Link href={ `/?locationId=${ locationId }` }>
                 <Button color={ 'warning' } variant={ "outlined" } size="large">{ 'Go back' }</Button>

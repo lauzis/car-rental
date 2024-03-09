@@ -8,6 +8,7 @@ import * as React from 'react';
 import OfferListItem from '@/app/components/ReservationForm/OfferListItem';
 import ButtonRow from '@/app/components/General/ButtonRow';
 import { useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/router'
 
 export default function OfferList({location, onChange}: {
   location: locationType | null,
