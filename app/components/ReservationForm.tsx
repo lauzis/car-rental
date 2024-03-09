@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { requestReservation } from '@/app/helpers/actions';
 import Location from '@/app/components/ReservationForm/Location';
 import OfferList from '@/app/components/ReservationForm/OfferList';
@@ -105,8 +105,12 @@ const ReservationForm = () => {
 
   return (
     <>
-      <Location onChange={ handleLocationChange }/>
-      <OfferList location={ selectedLocation } onChange={ handleOfferChange }/>
+      <Suspense>
+        <Location onChange={ handleLocationChange }/>
+      </Suspense>
+      <Suspense>
+        <OfferList location={ selectedLocation } onChange={ handleOfferChange }/>
+      </Suspense>
       <Customer location={ selectedLocation } offer={ selectedOffer } onSubmit={ handleSubmit }></Customer>
     </>
   );

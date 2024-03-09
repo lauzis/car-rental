@@ -53,7 +53,7 @@ export default function Location({onChange}: {
         setSelectedPickUpPoint({id: location.id, label: location.name});
       }
     }
-  }, [locations]);
+  }, [locations, searchParams]);
 
   //update city list when country selected
   useEffect(() => {

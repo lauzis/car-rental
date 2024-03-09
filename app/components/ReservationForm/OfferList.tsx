@@ -48,7 +48,7 @@ export default function OfferList({location, onChange}: {
         }
       }
     }
-  }, [offers]);
+  }, [offers, searchParams]);
 
   useEffect(() => {
     if (offers){
@@ -70,7 +70,7 @@ export default function OfferList({location, onChange}: {
         onChange(null);
       }
     }
-  }, [offers, selectedOfferUId]);
+  }, [offers, selectedOfferUId, onChange]);
 
 
   const handleFieldChange = (fieldName: string, value: optionsType | null) => {
