@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "country": "Portugal",
+    "city": "Lisbon",
+    "name": "Lisbon Airport (LIS)"
+  },
+  {
+    "id": 2,
+    "country": "USA",
+    "city": "Miami",
+    "name": "Miami International Airport (MIA)"
+  },
+  {
+    "id": 3,
+    "country": "Australia",
+    "city": "Sydney",
+    "name": "Sydney Airport (SYD)"
+  },
+  {
+    "id": 4,
+    "country": "Latvia",
+    "city": "Riga",
+    "name": "Riga Airport (RIX)"
+  }
+
+]
