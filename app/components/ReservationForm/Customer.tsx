@@ -37,6 +37,7 @@ export default function Customer({location, offer, onSubmit}: {
 
   return (
     <Section completed={!disabledButton} disabled={disabled} title={ 'Step 3: Complete reservation!' }>
+
       <ul>
         <li>
           Location: {location?.name} - {location?.city} - {location?.country}
@@ -48,7 +49,6 @@ export default function Customer({location, offer, onSubmit}: {
 
       <ButtonRow>
         <TextField
-
           id="name"
           label="Name"
           variant="outlined"
@@ -56,7 +56,6 @@ export default function Customer({location, offer, onSubmit}: {
           disabled={disabled}
           onChange={ (e) => handleFieldChange(e, 'name') }
         />
-
         <TextField
           id="surname"
           label="Surname"
@@ -65,7 +64,9 @@ export default function Customer({location, offer, onSubmit}: {
           disabled={disabled}
           onChange={ (e) => handleFieldChange(e, 'surname') }
         />
+
       </ButtonRow>
+
       <ButtonRow>
         <Button
           onClick={ handleSubmit }
@@ -76,9 +77,6 @@ export default function Customer({location, offer, onSubmit}: {
           Complete reservation
         </Button>
       </ButtonRow>
-
-
-
 
     </Section>
   );

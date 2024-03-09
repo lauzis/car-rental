@@ -24,11 +24,7 @@ const Page = async ({params}: { params: { locationId: string, vehicleId: string 
                 title={ offer.vehicle.modelName }
               />
             </div>
-            {/*<CardMedia className={'flex content-center'}*/ }
-            {/*  sx={{ width:'100%', height:'auto'}}*/ }
-            {/*  image={offer.vehicle.imageLink}*/ }
 
-            {/*/>*/ }
             <div>
               <ul>
                 <li>
@@ -45,6 +41,7 @@ const Page = async ({params}: { params: { locationId: string, vehicleId: string 
                 </li>
               </ul>
             </div>
+
             <ButtonRow>
               <Link href={ `/?locationId=${ locationId }` }>
                 <Button color={ 'warning' } variant={ "outlined" } size="large">{ 'Go back' }</Button>
