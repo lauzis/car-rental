@@ -11,9 +11,6 @@ const Page = async ({params}: { params: { locationId: string, vehicleId: string 
   const offers = await getOfferList(parseInt(locationId, 10));
   const offer = offers ? offers.find(item => item.offerUId === vehicleId) : null;
 
-  console.log(offer);
-  console.log(location);
-
   if (offer && location) {
     return (
       <main className="flex flex-col content-start p-24">
