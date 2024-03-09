@@ -25,9 +25,12 @@ export default function OfferList({location, onChange}: {
   useEffect(() => {
     if (location){
       setOffersIsLoading(true);
+      setVehicleNames([]);
       getOfferList(location.id).then((offers) => {
         setOffersIsLoading(false);
         setOffers(offers);
+        setFilteredOffers(offers);
+
       });
     } else {
       handleClear();
@@ -88,6 +91,7 @@ export default function OfferList({location, onChange}: {
   const handleClear = () =>{
     setSelectedOfferUId('');
     setSelectedVehicleName(null);
+    setFilteredOffers(null);
   }
 
   return (
@@ -111,7 +115,7 @@ export default function OfferList({location, onChange}: {
             handleFieldChange('vehicleName', value);
           } }
           renderInput={ (params) => <TextField { ...params } label="Vehicle"/> }
-          disabled={!!selectedOfferUId}
+          disabled={!!selectedOfferUId || vehicleNames.length===0}
         />
       </ButtonRow>
 
