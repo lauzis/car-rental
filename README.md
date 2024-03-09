@@ -1,4 +1,5 @@
 # Car rental example
+Demo page: https://tmp.itdep.lv/
 
 ## --- Task description / Case study ---
 What needs to be done?
@@ -45,6 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Select/Return instead of search params use urls
 - Make reservation directly for offer view (there is everything that is needed for reservation)
 - Rewrite endpoints so it would read/save data in real db
+- <img> -> next/image
 
 ### KNOW ISSUES
 - The api is blocked by CORS, it could be parsed trough curl request to overcome the CORS but not sure if this si the scope of this "example" project
