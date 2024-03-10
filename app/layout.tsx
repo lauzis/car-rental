@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-import OfferList from '@/app/components/ReservationForm/OfferList';
-import Customer from '@/app/components/ReservationForm/Customer';
+import appPackageJson from '@/package.json';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,9 +21,10 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-
-
         {children}
+        <section>
+          Version {appPackageJson.version}
+        </section>
       </body>
     </html>
   );

@@ -129,9 +129,7 @@ export default function OfferList({location, onChange}: {
           size={ 'large' }>Clear</Button>
       </ButtonRow>
 
-
-
-      <div className={"mt-5 grid grid-cols-2 gap-x-5 gap-y-5"}>
+      <div className={"mt-5 grid grid-cols-1 gap-x-5 gap-y-5 md:grid-cols-2 lg:grid-cols-3"}>
         { filteredOffers?.map((offer) => {
           return (
             <OfferListItem locationId={location?.id} key={offer.offerUId} offer={offer} offerUId={selectedOfferUId} onSelect={handleSelectedOrder}/>

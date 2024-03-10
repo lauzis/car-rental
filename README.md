@@ -41,6 +41,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## --- Change log ---
 
+
+### --- 0.1.1 Minor fixes --
+- Readme updates
+- Some small mobile layout updates
+- Version output on frontend to see what version is published on demo site
+
 ### --- 0.1.0 Initial Version --
 
 #### TODOS / Possible improvements
