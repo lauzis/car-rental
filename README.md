@@ -47,6 +47,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Make reservation directly for offer view (there is everything that is needed for reservation)
 - Rewrite endpoints so it would read/save data in real db
 - <img> -> next/image
+- authentication middleware
+- user registration routine
 
 ### KNOW ISSUES
 - The api is blocked by CORS, it could be parsed trough curl request to overcome the CORS but not sure if this si the scope of this "example" project

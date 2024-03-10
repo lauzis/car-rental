@@ -11,7 +11,8 @@ import { useSearchParams } from 'next/navigation';
 
 export default function OfferList({location, onChange}: {
   location: locationType | null,
-  onChange: (offer: offerType | null) => void}) {
+  onChange: (offer: offerType | null) => void}
+) {
 
   const searchParams = useSearchParams();
 
@@ -30,7 +31,7 @@ export default function OfferList({location, onChange}: {
         setOffersIsLoading(false);
         setOffers(offers);
         setFilteredOffers(offers);
-
+        setSelectedOfferUId('');
       });
     } else {
       handleClear();
