@@ -1,6 +1,8 @@
 # Car rental example
 Demo page: https://tmp.itdep.lv/
 
+Walkthrough: https://www.youtube.com/watch?v=6-rXsoqlbUE
+
 [![Demo car rental exmaple Next.js](http://itdep.lv/wp-content/uploads/2024/03/carrental.gif)](https://www.youtube.com/watch?v=6-rXsoqlbUE)
 
 ## --- Task description / Case study ---
