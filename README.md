@@ -41,6 +41,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## --- Change log ---
 
+### --- 0.1.2 Minor fixes --
+- padding size
 
 ### --- 0.1.1 Minor fixes --
 - Readme updates
